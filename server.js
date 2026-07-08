@@ -34,3 +34,6 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => { res.send("API Sistema Académico funcionando"); });
+
+
+app.get("/cliente", (req, res) => { res.send("Atendiendo cliente..."); });
