@@ -1,7 +1,12 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
-require('dotenv').config();
+import express from 'express';
+import mongoose from 'mongoose';
+import cors from 'cors';
+import dotenv from 'dotenv';
+dotenv.config();
+
+//const express = require('express');
+//const mongoose = require('mongoose');
+//const cors = require('cors');
 
 const app = express();
 
@@ -25,5 +30,7 @@ app.get('/api/status', (req, res) => {
 // Encender el servidor
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`🚀 Servidor backend corriendo en http://localhost:${PORT}`);
+    console.log(`🚀 Servidor backend corriendo en ${uri}:${PORT}`);
 });
+
+app.get("/", (req, res) => { res.send("API Sistema Académico funcionando"); });
