@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "60a7c1b2f1d2e34567891001",
+    "nombre": "Audífonos Bluetooth Over-Ear Classic",
+    "precio": 48400,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891002",
+    "nombre": "Taza de Cerámica de Diseño Pro",
+    "precio": 6300,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891003",
+    "nombre": "Billetera de Cuero con Bloqueo RFID Eco",
+    "precio": 27700,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891004",
+    "nombre": "Mouse Inalámbrico Ergonómico Pro Max",
+    "precio": 19400,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891005",
+    "nombre": "Lámpara de Mesa Minimalista Essential",
+    "precio": 28700,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891006",
+    "nombre": "Lentes de Sol Polarizados UV400 V2",
+    "precio": 32600,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891007",
+    "nombre": "Teclado Mecánico RGB Urban",
+    "precio": 75400,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891008",
+    "nombre": "Humidificador de Aire Ultrasónico Ultra",
+    "precio": 18100,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891009",
+    "nombre": "Estuche para Cables y Gadgets Sport",
+    "precio": 12700,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891010",
+    "nombre": "Powerbank 20000mAh Carga Rápida Premium",
+    "precio": 28200,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891011",
+    "nombre": "Organizador de Escritorio de Madera Classic",
+    "precio": 26500,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891012",
+    "nombre": "Llavero Multifuncional de Metal Pro",
+    "precio": 6100,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891013",
+    "nombre": "Soporte de Aluminio para Laptop Eco",
+    "precio": 21600,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891014",
+    "nombre": "Set de Cojines Decorativos (2u) Pro Max",
+    "precio": 25200,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891015",
+    "nombre": "Cinturón de Cuero Ajustable Essential",
+    "precio": 15800,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891016",
+    "nombre": "Cargador Rápido USB-C 65W V2",
+    "precio": 27400,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891017",
+    "nombre": "Cafetera de Prensa Francesa 1L Urban",
+    "precio": 15800,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891018",
+    "nombre": "Neceser de Viaje Resistente al Agua Ultra",
+    "precio": 14400,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891019",
+    "nombre": "Parlante Portátil Waterproof Sport",
+    "precio": 43000,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891020",
+    "nombre": "Botella Térmica de Acero Inoxidable Premium",
+    "precio": 17200,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891021",
+    "nombre": "Paraguas Compacto Reforzado Classic",
+    "precio": 8100,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891022",
+    "nombre": "Aro de Luz LED con Trípode Pro",
+    "precio": 18200,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891023",
+    "nombre": "Vela Aromática en Frasco de Vidrio Eco",
+    "precio": 10000,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891024",
+    "nombre": "Joya / Pulsera de Plata 925 Pro Max",
+    "precio": 26100,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891025",
+    "nombre": "Smartwatch Deportivo GPS Essential",
+    "precio": 95200,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891026",
+    "nombre": "Set de Posavasos de Corcho (6u) V2",
+    "precio": 4300,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891027",
+    "nombre": "Banano Deportivo Slim Urban",
+    "precio": 9100,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891028",
+    "nombre": "Adaptador Multi-puerto USB-C Hub Ultra",
+    "precio": 34800,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891029",
+    "nombre": "Espejo de Mesa con Luz LED Sport",
+    "precio": 19500,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891030",
+    "nombre": "Sombrero de Sol Plegable Premium",
+    "precio": 13900,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891031",
+    "nombre": "Micrófono Condensador USB Classic",
+    "precio": 36800,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891032",
+    "nombre": "Manta Sofa Knit Soft Pro",
+    "precio": 18800,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891033",
+    "nombre": "Funda Protectora de Pasaporte Eco",
+    "precio": 6200,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891034",
+    "nombre": "Cámara Web Full HD 1080p Pro Max",
+    "precio": 22100,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891035",
+    "nombre": "Macetero Autorregante Premium Essential",
+    "precio": 7900,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891036",
+    "nombre": "Reloj de Pulsera Casual V2",
+    "precio": 42600,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891037",
+    "nombre": "Lámpara de Escritorio Inteligente Urban",
+    "precio": 35800,
+    "categoria": "Tecnologia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891038",
+    "nombre": "Alfombra de Baño Memory Foam Ultra",
+    "precio": 15400,
+    "categoria": "Hogar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891039",
+    "nombre": "Gorro Knit Beanie Unisex Sport",
+    "precio": 7000,
+    "categoria": "Accesorios personales"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567891040",
+    "nombre": "Repetidor Wi-Fi de Doble Banda Premium",
+    "precio": 20500,
+    "categoria": "Tecnologia"
+  }
+]

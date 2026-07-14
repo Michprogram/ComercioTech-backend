@@ -1,0 +1,223 @@
+[
+  {
+    "_id": "60a7c1b2f1d2e34567892001",
+    "cliente_id": "60a7c1b2f1d2e34567890014",
+    "productos": [
+      "60a7c1b2f1d2e34567891004",
+      "60a7c1b2f1d2e34567891015"
+    ],
+    "fecha_pedido": "2026-05-10"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892002",
+    "cliente_id": "60a7c1b2f1d2e34567890003",
+    "productos": [
+      "60a7c1b2f1d2e34567891028"
+    ],
+    "fecha_pedido": "2026-05-12"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892003",
+    "cliente_id": "60a7c1b2f1d2e34567890045",
+    "productos": [
+      "60a7c1b2f1d2e34567891002",
+      "60a7c1b2f1d2e34567891020",
+      "60a7c1b2f1d2e34567891038"
+    ],
+    "fecha_pedido": "2026-05-15"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892004",
+    "cliente_id": "60a7c1b2f1d2e34567890022",
+    "productos": [
+      "60a7c1b2f1d2e34567891012",
+      "60a7c1b2f1d2e34567891030"
+    ],
+    "fecha_pedido": "2026-05-19"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892005",
+    "cliente_id": "60a7c1b2f1d2e34567890009",
+    "productos": [
+      "60a7c1b2f1d2e34567891001",
+      "60a7c1b2f1d2e34567891037"
+    ],
+    "fecha_pedido": "2026-05-22"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892006",
+    "cliente_id": "60a7c1b2f1d2e34567890031",
+    "productos": [
+      "60a7c1b2f1d2e34567891011"
+    ],
+    "fecha_pedido": "2026-05-25"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892007",
+    "cliente_id": "60a7c1b2f1d2e34567890001",
+    "productos": [
+      "60a7c1b2f1d2e34567891006",
+      "60a7c1b2f1d2e34567891018",
+      "60a7c1b2f1d2e34567891039"
+    ],
+    "fecha_pedido": "2026-05-28"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892008",
+    "cliente_id": "60a7c1b2f1d2e34567890019",
+    "productos": [
+      "60a7c1b2f1d2e34567891025"
+    ],
+    "fecha_pedido": "2026-06-01"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892009",
+    "cliente_id": "60a7c1b2f1d2e34567890040",
+    "productos": [
+      "60a7c1b2f1d2e34567891014",
+      "60a7c1b2f1d2e34567891032"
+    ],
+    "fecha_pedido": "2026-06-03"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892010",
+    "cliente_id": "60a7c1b2f1d2e34567890012",
+    "productos": [
+      "60a7c1b2f1d2e34567891007"
+    ],
+    "fecha_pedido": "2026-06-06"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892011",
+    "cliente_id": "60a7c1b2f1d2e34567890028",
+    "productos": [
+      "60a7c1b2f1d2e34567891003",
+      "60a7c1b2f1d2e34567891027"
+    ],
+    "fecha_pedido": "2026-06-09"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892012",
+    "cliente_id": "60a7c1b2f1d2e34567890036",
+    "productos": [
+      "60a7c1b2f1d2e34567891023",
+      "60a7c1b2f1d2e34567891040"
+    ],
+    "fecha_pedido": "2026-06-12"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892013",
+    "cliente_id": "60a7c1b2f1d2e34567890048",
+    "productos": [
+      "60a7c1b2f1d2e34567891031",
+      "60a7c1b2f1d2e34567891034"
+    ],
+    "fecha_pedido": "2026-06-15"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892014",
+    "cliente_id": "60a7c1b2f1d2e34567890005",
+    "productos": [
+      "60a7c1b2f1d2e34567891005"
+    ],
+    "fecha_pedido": "2026-06-18"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892015",
+    "cliente_id": "60a7c1b2f1d2e34567890017",
+    "productos": [
+      "60a7c1b2f1d2e34567891009",
+      "60a7c1b2f1d2e34567891021",
+      "60a7c1b2f1d2e34567891036"
+    ],
+    "fecha_pedido": "2026-06-21"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892016",
+    "cliente_id": "60a7c1b2f1d2e34567890026",
+    "productos": [
+      "60a7c1b2f1d2e34567891010",
+      "60a7c1b2f1d2e34567891028"
+    ],
+    "fecha_pedido": "2026-06-24"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892017",
+    "cliente_id": "60a7c1b2f1d2e34567890033",
+    "productos": [
+      "60a7c1b2f1d2e34567891017",
+      "60a7c1b2f1d2e34567891035"
+    ],
+    "fecha_pedido": "2026-06-27"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892018",
+    "cliente_id": "60a7c1b2f1d2e34567890010",
+    "productos": [
+      "60a7c1b2f1d2e34567891019"
+    ],
+    "fecha_pedido": "2026-06-29"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892019",
+    "cliente_id": "60a7c1b2f1d2e34567890042",
+    "productos": [
+      "60a7c1b2f1d2e34567891024"
+    ],
+    "fecha_pedido": "2026-07-02"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892020",
+    "cliente_id": "60a7c1b2f1d2e34567890024",
+    "productos": [
+      "60a7c1b2f1d2e34567891013",
+      "60a7c1b2f1d2e34567891016"
+    ],
+    "fecha_pedido": "2026-07-04"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892021",
+    "cliente_id": "60a7c1b2f1d2e34567890007",
+    "productos": [
+      "60a7c1b2f1d2e34567891008",
+      "60a7c1b2f1d2e34567891026"
+    ],
+    "fecha_pedido": "2026-07-06"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892022",
+    "cliente_id": "60a7c1b2f1d2e34567890038",
+    "productos": [
+      "60a7c1b2f1d2e34567891022"
+    ],
+    "fecha_pedido": "2026-07-08"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892023",
+    "cliente_id": "60a7c1b2f1d2e34567890011",
+    "productos": [
+      "60a7c1b2f1d2e34567891029",
+      "60a7c1b2f1d2e34567891033"
+    ],
+    "fecha_pedido": "2026-07-10"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892024",
+    "cliente_id": "60a7c1b2f1d2e34567890049",
+    "productos": [
+      "60a7c1b2f1d2e34567891004",
+      "60a7c1b2f1d2e34567891010",
+      "60a7c1b2f1d2e34567891016"
+    ],
+    "fecha_pedido": "2026-07-11"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567892025",
+    "cliente_id": "60a7c1b2f1d2e34567890015",
+    "productos": [
+      "60a7c1b2f1d2e34567891012",
+      "60a7c1b2f1d2e34567891024"
+    ],
+    "fecha_pedido": "2026-07-13"
+  }
+]

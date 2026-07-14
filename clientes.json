@@ -1,0 +1,402 @@
+[
+  {
+    "_id": "60a7c1b2f1d2e34567890001",
+    "rut": "15.432.891-K",
+    "nombre": "Gonzalo Muñoz",
+    "username": "gonzalo.munoz",
+    "region": "Valparaíso",
+    "comuna": "Valparaíso"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890002",
+    "rut": "18.765.432-1",
+    "nombre": "Valentina Silva",
+    "username": "vale_silva",
+    "region": "Valparaíso",
+    "comuna": "Viña del Mar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890003",
+    "rut": "16.890.123-4",
+    "nombre": "Matías Sepúlveda",
+    "username": "mati.sepulveda",
+    "region": "Valparaíso",
+    "comuna": "Quilpué"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890004",
+    "rut": "14.321.098-7",
+    "nombre": "Camila Castro",
+    "username": "camila_castro",
+    "region": "Valparaíso",
+    "comuna": "Villa Alemana"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890005",
+    "rut": "19.543.210-2",
+    "nombre": "Tomás Olivares",
+    "username": "tomas_olivares",
+    "region": "Valparaíso",
+    "comuna": "Concón"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890006",
+    "rut": "17.654.321-K",
+    "nombre": "Fernanda Soto",
+    "username": "fer_soto",
+    "region": "Valparaíso",
+    "comuna": "Valparaíso"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890007",
+    "rut": "13.987.654-3",
+    "nombre": "Joaquín Herrera",
+    "username": "joaco.herrera",
+    "region": "Metropolitana de Santiago",
+    "comuna": "Santiago"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890008",
+    "rut": "20.123.456-5",
+    "nombre": "Sofía Tapia",
+    "username": "sofia.tapia",
+    "region": "Valparaíso",
+    "comuna": "Viña del Mar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890009",
+    "rut": "15.987.654-8",
+    "nombre": "Diego Carrasco",
+    "username": "diego_carrasco",
+    "region": "Valparaíso",
+    "comuna": "Limache"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890010",
+    "rut": "18.456.789-2",
+    "nombre": "Javiera Valenzuela",
+    "username": "javi.valenzuela",
+    "region": "Valparaíso",
+    "comuna": "Valparaíso"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890011",
+    "rut": "16.543.210-9",
+    "nombre": "Nicolás Reyes",
+    "username": "nico.reyes",
+    "region": "Valparaíso",
+    "comuna": "Quillota"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890012",
+    "rut": "12.876.543-1",
+    "nombre": "Carolina Flores",
+    "username": "caro_flores",
+    "region": "Metropolitana de Santiago",
+    "comuna": "Providencia"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890013",
+    "rut": "17.981.234-5",
+    "nombre": "Felipe Morales",
+    "username": "felipe_morales",
+    "region": "Valparaíso",
+    "comuna": "San Antonio"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890014",
+    "rut": "19.321.456-7",
+    "nombre": "Francisca Gómez",
+    "username": "fran.gomez",
+    "region": "Valparaíso",
+    "comuna": "Viña del Mar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890015",
+    "rut": "14.765.123-K",
+    "nombre": "Andrés Gutiérrez",
+    "username": "andres.gutierrez",
+    "region": "Valparaíso",
+    "comuna": "Casablanca"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890016",
+    "rut": "18.123.987-2",
+    "nombre": "Constanza Díaz",
+    "username": "conidiaz",
+    "region": "Valparaíso",
+    "comuna": "Valparaíso"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890017",
+    "rut": "15.654.321-4",
+    "nombre": "Sebastián Álvarez",
+    "username": "seba.alvarez",
+    "region": "Valparaíso",
+    "comuna": "Quilpué"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890018",
+    "rut": "16.123.456-7",
+    "nombre": "Isidora Contreras",
+    "username": "isi_contreras",
+    "region": "Valparaíso",
+    "comuna": "Villa Alemana"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890019",
+    "rut": "13.432.109-8",
+    "nombre": "Cristian Rojas",
+    "username": "cristian.rojas",
+    "region": "Metropolitana de Santiago",
+    "comuna": "Las Condes"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890020",
+    "rut": "19.876.543-9",
+    "nombre": "Natalia Salazar",
+    "username": "naty.salazar",
+    "region": "Valparaíso",
+    "comuna": "Concón"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890021",
+    "rut": "17.098.765-4",
+    "nombre": "Gabriel Pinto",
+    "username": "gabriel_pinto",
+    "region": "Valparaíso",
+    "comuna": "San Felipe"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890022",
+    "rut": "15.123.789-3",
+    "nombre": "Antonia Fuentes",
+    "username": "anto_fuentes",
+    "region": "Valparaíso",
+    "comuna": "Los Andes"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890023",
+    "rut": "18.098.123-1",
+    "nombre": "Benjamín Henríquez",
+    "username": "benja.henriquez",
+    "region": "Valparaíso",
+    "comuna": "Valparaíso"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890024",
+    "rut": "16.765.987-6",
+    "nombre": "Catalina Jara",
+    "username": "cata_jara",
+    "region": "Valparaíso",
+    "comuna": "Viña del Mar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890025",
+    "rut": "14.987.321-5",
+    "nombre": "Daniel Vergara",
+    "username": "daniel_vergara",
+    "region": "Valparaíso",
+    "comuna": "La Ligua"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890026",
+    "rut": "19.123.456-1",
+    "nombre": "María Paz Sandoval",
+    "username": "mariapaz.s",
+    "region": "Metropolitana de Santiago",
+    "comuna": "Ñuñoa"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890027",
+    "rut": "15.876.123-2",
+    "nombre": "Ignacio Miranda",
+    "username": "nacho_miranda",
+    "region": "Valparaíso",
+    "comuna": "Quilpué"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890028",
+    "rut": "17.432.109-5",
+    "nombre": "Pia Bustos",
+    "username": "pia.bustos",
+    "region": "Valparaíso",
+    "comuna": "Viña del Mar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890029",
+    "rut": "18.987.654-7",
+    "nombre": "Martín Aguilera",
+    "username": "martin_aguilera",
+    "region": "Valparaíso",
+    "comuna": "Valparaíso"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890030",
+    "rut": "16.321.789-0",
+    "nombre": "Florencia Godoy",
+    "username": "flo_godoy",
+    "region": "Valparaíso",
+    "comuna": "Villa Alemana"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890031",
+    "rut": "13.123.456-K",
+    "nombre": "Rodrigo Cáceres",
+    "username": "rodrigo.caceres",
+    "region": "Valparaíso",
+    "comuna": "La Calera"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890032",
+    "rut": "20.543.987-3",
+    "nombre": "Daniela Peña",
+    "username": "dani_pena",
+    "region": "Valparaíso",
+    "comuna": "Concón"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890033",
+    "rut": "17.123.890-4",
+    "nombre": "Álvaro Loyola",
+    "username": "alvaro.loyola",
+    "region": "Metropolitana de Santiago",
+    "comuna": "Maipú"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890034",
+    "rut": "15.987.123-5",
+    "nombre": "Macarena Ortiz",
+    "username": "maca.ortiz",
+    "region": "Valparaíso",
+    "comuna": "Valparaíso"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890035",
+    "rut": "18.321.456-9",
+    "nombre": "Bastián Garrido",
+    "username": "bastian_garrido",
+    "region": "Valparaíso",
+    "comuna": "Quilpué"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890036",
+    "rut": "16.987.432-8",
+    "nombre": "Paula Farías",
+    "username": "paula.farias",
+    "region": "Valparaíso",
+    "comuna": "Viña del Mar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890037",
+    "rut": "14.543.123-2",
+    "nombre": "Claudio Pizarro",
+    "username": "claudio_pizarro",
+    "region": "Valparaíso",
+    "comuna": "Puchuncaví"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890038",
+    "rut": "19.876.123-4",
+    "nombre": "Fernanda Maldonado",
+    "username": "fer.maldonado",
+    "region": "Valparaíso",
+    "comuna": "Quintero"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890039",
+    "rut": "17.987.012-3",
+    "nombre": "Lucas Salinas",
+    "username": "lucas_salinas",
+    "region": "Metropolitana de Santiago",
+    "comuna": "La Florida"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890040",
+    "rut": "15.456.987-1",
+    "nombre": "Gabriela Vera",
+    "username": "gaby_vera",
+    "region": "Valparaíso",
+    "comuna": "Valparaíso"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890041",
+    "rut": "18.123.456-7",
+    "nombre": "Matías Orellana",
+    "username": "mati_orellana",
+    "region": "Valparaíso",
+    "comuna": "Villa Alemana"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890042",
+    "rut": "16.876.543-K",
+    "nombre": "Bárbara Donoso",
+    "username": "barbara.donoso",
+    "region": "Valparaíso",
+    "comuna": "Viña del Mar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890043",
+    "rut": "13.654.987-2",
+    "nombre": "Mauricio Poblete",
+    "username": "mauricio.poblete",
+    "region": "Valparaíso",
+    "comuna": "Quilpué"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890044",
+    "rut": "20.987.654-1",
+    "nombre": "Catalina Saavedra",
+    "username": "cata_saavedra",
+    "region": "Valparaíso",
+    "comuna": "Concón"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890045",
+    "rut": "15.321.098-6",
+    "nombre": "Andrés Lagos",
+    "username": "andres_lagos",
+    "region": "Valparaíso",
+    "comuna": "Cabildo"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890046",
+    "rut": "17.654.123-3",
+    "nombre": "Javiera Arancibia",
+    "username": "javi.arancibia",
+    "region": "Metropolitana de Santiago",
+    "comuna": "Santiago"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890047",
+    "rut": "19.123.987-5",
+    "nombre": "Felipe Henríquez",
+    "username": "felipe_henriquez",
+    "region": "Valparaíso",
+    "comuna": "El Quisco"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890048",
+    "rut": "16.456.321-4",
+    "nombre": "Constanza Carvajal",
+    "username": "coni_carvajal",
+    "region": "Valparaíso",
+    "comuna": "Valparaíso"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890049",
+    "rut": "18.543.123-9",
+    "nombre": "Nicolás Bustamante",
+    "username": "nico.bustamante",
+    "region": "Valparaíso",
+    "comuna": "Viña del Mar"
+  },
+  {
+    "_id": "60a7c1b2f1d2e34567890050",
+    "rut": "14.987.654-2",
+    "nombre": "Patricia Bahamondes",
+    "username": "paty_bahamondes",
+    "region": "Valparaíso",
+    "comuna": "Algarrobo"
+  }
+]
