@@ -15,7 +15,8 @@ const pedidosSchema = new mongoose.Schema({
   ],
   fecha_pedido: {
     type: Date,
-    required: true
+    required: true,
+    default: Date.now  //Fecha por defecto al momento de crear el pedidom, si no, puede dar error al crear el pedido
   }
 });
 

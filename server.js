@@ -8,15 +8,12 @@ import pedidoRoutes from './src/routes/pedidoRoutes.js';
 
 dotenv.config();
 
-//const express = require('express');
-//const mongoose = require('mongoose');
-//const cors = require('cors');
-
 const app = express();
 
 // Configuración de Middlewares
 app.use(cors());
 app.use(express.json());
+// Conexión de Rutas
 app.use('/api/productos', productoRoutes);
 app.use('/api/clientes', clienteRoutes);
 app.use('/api/pedidos', pedidoRoutes);
@@ -29,7 +26,11 @@ mongoose.connect(uri, {
     .then(() => console.log('🟢 Conexión exitosa a la nube de MongoDB Atlas'))
     .catch(err => console.error('🔴 Error crítico de conexión a la base de datos:', err));
 
-// Ruta inicial de prueba
+// Rutas de estado y bienvenida
+app.get('/', (req, res) => {
+    res.send('API ComercioTech funcionando correctamente 🚀');
+});
+
 app.get('/api/status', (req, res) => {
     res.json({ status: 'online', message: 'Servidor de ComercioTech funcionando correctamente' });
 });
@@ -37,10 +38,22 @@ app.get('/api/status', (req, res) => {
 // Encender el servidor
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`🚀 Servidor backend corriendo en ${uri}:${PORT}`);
+    // Corregido: Ahora muestra la URL correcta para el navegador local y no filtra la contraseña
+    console.log(`🚀 Servidor backend corriendo en http://localhost:${PORT}`);
 });
 
-app.get("/", (req, res) => { res.send("API Sistema Académico funcionando"); });
+// Ruta inicial de prueba
+//app.get('/api/status', (req, res) => {
+//    res.json({ status: 'online', message: 'Servidor de ComercioTech funcionando correctamente' });
+//});
+
+// Encender el servidor
+//const PORT = process.env.PORT || 3000;
+//app.listen(PORT, () => {
+//    console.log(`🚀 Servidor backend corriendo en ${uri}:${PORT}`); ESTO ME FILTRA LAS CREDENCIALES PORQUE IMPRIME URI
+//});
+
+//app.get("/", (req, res) => { res.send("API Sistema Académico funcionando"); });
 
 
-app.get("/cliente", (req, res) => { res.send("Atendiendo cliente..."); });
+//app.get("/cliente", (req, res) => { res.send("Atendiendo cliente..."); }); 
