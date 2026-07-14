@@ -3,6 +3,8 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import productoRoutes from './src/routes/productoRoutes.js';
+import clienteRoutes from './src/routes/clienteRoutes.js';
+import pedidoRoutes from './src/routes/pedidoRoutes.js';
 
 dotenv.config();
 
@@ -16,6 +18,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use('/api/productos', productoRoutes);
+app.use('/api/clientes', clienteRoutes);
+app.use('/api/pedidos', pedidoRoutes);
 
 // Conexión limpia a MongoDB Atlas usando tu URI segura
 const uri = process.env.MONGO_URI;
