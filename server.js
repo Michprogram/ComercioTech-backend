@@ -2,6 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import productoRoutes from './src/routes/productoRoutes.js';
+
 dotenv.config();
 
 //const express = require('express');
@@ -13,6 +15,7 @@ const app = express();
 // Configuración de Middlewares
 app.use(cors());
 app.use(express.json());
+app.use('/api/productos', productoRoutes);
 
 // Conexión limpia a MongoDB Atlas usando tu URI segura
 const uri = process.env.MONGO_URI;
