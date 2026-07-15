@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 import productoRoutes from './src/routes/productoRoutes.js';
 import clienteRoutes from './src/routes/clienteRoutes.js';
 import pedidoRoutes from './src/routes/pedidoRoutes.js';
+import usuarioRoutes from './src/routes/usuarioRoutes.js';
 
 dotenv.config();
 
@@ -17,6 +18,7 @@ app.use(express.json());
 app.use('/api/productos', productoRoutes);
 app.use('/api/clientes', clienteRoutes);
 app.use('/api/pedidos', pedidoRoutes);
+app.use('/api/usuarios', usuarioRoutes);
 
 // Conexión limpia a MongoDB Atlas usando tu URI segura
 const uri = process.env.MONGO_URI;
