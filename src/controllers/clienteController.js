@@ -11,8 +11,8 @@ export const getAllClientes = async (req, res) => {
 
 export const getClienteById = async (req, res) => {
   try {
-    const { id } = req.params;
-    const cliente = await Cliente.findById(id);
+    const { rut } = req.params;
+    const cliente = await Cliente.findOne({ rut });
 
     if (!cliente) {
       return res.status(404).json({ message: 'Cliente no encontrado' });
@@ -37,11 +37,11 @@ export const createCliente = async (req, res) => {
 
 export const updateCliente = async (req, res) => {
   try {
-    const { id } = req.params;
-    const { rut, nombre, username, region, comuna } = req.body;
-    const clienteActualizado = await Cliente.findByIdAndUpdate(
-      id,
-      { rut, nombre, username, region, comuna },
+    const { rut } = req.params;
+    const { nombre, username, region, comuna } = req.body;
+    const clienteActualizado = await Cliente.findOneAndUpdate(
+      { rut },
+      { nombre, username, region, comuna },
       { new: true, runValidators: true }
     );
 
@@ -57,8 +57,8 @@ export const updateCliente = async (req, res) => {
 
 export const deleteCliente = async (req, res) => {
   try {
-    const { id } = req.params;
-    const clienteEliminado = await Cliente.findByIdAndDelete(id);
+    const { rut } = req.params;
+    const clienteEliminado = await Cliente.findOneAndDelete({ rut });
 
     if (!clienteEliminado) {
       return res.status(404).json({ message: 'Cliente no encontrado' });
