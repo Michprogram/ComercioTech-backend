@@ -6,13 +6,21 @@ const pedidosSchema = new mongoose.Schema({
     ref: 'Cliente',
     required: true
   },
-  productos: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Producto',
-      required: true
-    }
-  ],
+  productos: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Producto',
+    required: true
+  },
+  cantidad: {
+    type: Number,
+    required: true,
+    default: 1
+  },
+  estado: {
+    type: String,
+    required: true,
+    default: 'Pendiente'
+  },
   fecha_pedido: {
     type: Date,
     required: true,
