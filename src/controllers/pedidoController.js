@@ -12,20 +12,16 @@ export const getAllPedidos = async (req, res) => {
   }
 };
 
-export const getPedidoById = async (req, res) => {
+export const getAllPedidos = async (req, res) => {
   try {
-    const { id } = req.params;
-    const pedido = await Pedido.findById(id)
-      .populate('cliente_id', 'rut nombre username region comuna')
-      .populate('productos', 'nombre precio categoria');
+    const pedidos = await Pedido.find()
 
-    if (!pedido) {
-      return res.status(404).json({ message: 'Pedido no encontrado' });
-    }
+      .populate('cliente_id', 'nombre rut')
+      .populate('productos', 'nombre precio');
 
-    res.status(200).json(pedido);
+    res.status(200).json(pedidos);
   } catch (error) {
-    res.status(500).json({ message: 'Error al obtener pedido', error: error.message });
+    res.status(500).json({ message: 'Error al obtener pedidos', error: error.message });
   }
 };
 
