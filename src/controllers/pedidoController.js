@@ -12,11 +12,28 @@ export const getAllPedidos = async (req, res) => {
   }
 };
 
+export const getPedidoById = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const pedido = await Pedido.findById(id)
+      .populate('cliente_id', 'rut nombre username region comuna')
+      .populate('productos', 'nombre precio categoria');
+
+    if (!pedido) {
+      return res.status(404).json({ message: 'Pedido no encontrado' });
+    }
+
+    res.status(200).json(pedido);
+  } catch (error) {
+    res.status(500).json({ message: 'Error al obtener pedido', error: error.message });
+  }
+};
+
 
 export const createPedido = async (req, res) => {
   try {
-    const { cliente_id, productos, fecha_pedido } = req.body;
-    const nuevoPedido = new Pedido({ cliente_id, productos, fecha_pedido });
+    const { cliente_id, productos, cantidad, estado, fecha_pedido } = req.body;
+    const nuevoPedido = new Pedido({ cliente_id, productos, cantidad, estado, fecha_pedido });
     const pedidoGuardado = await nuevoPedido.save();
     res.status(201).json(pedidoGuardado);
   } catch (error) {
@@ -27,10 +44,10 @@ export const createPedido = async (req, res) => {
 export const updatePedido = async (req, res) => {
   try {
     const { id } = req.params;
-    const { cliente_id, productos, fecha_pedido } = req.body;
+    const { cliente_id, productos, cantidad, estado, fecha_pedido } = req.body;
     const pedidoActualizado = await Pedido.findByIdAndUpdate(
       id,
-      { cliente_id, productos, fecha_pedido },
+      { cliente_id, productos, cantidad, estado, fecha_pedido },
       { new: true, runValidators: true }
     );
 
