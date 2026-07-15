@@ -26,8 +26,8 @@ export const getProductoById = async (req, res) => {
 
 export const createProducto = async (req, res) => {
   try {
-    const { nombre, precio, categoria } = req.body;
-    const nuevoProducto = new Producto({ nombre, precio, categoria });
+    const { nombre, precio, categoria, stock } = req.body;
+    const nuevoProducto = new Producto({ nombre, precio, categoria, stock });
     const productoGuardado = await nuevoProducto.save();
     res.status(201).json(productoGuardado);
   } catch (error) {
@@ -38,10 +38,10 @@ export const createProducto = async (req, res) => {
 export const updateProducto = async (req, res) => {
   try {
     const { id } = req.params;
-    const { nombre, precio, categoria } = req.body;
+    const { nombre, precio, categoria, stock } = req.body;
     const productoActualizado = await Producto.findByIdAndUpdate(
       id,
-      { nombre, precio, categoria },
+      { nombre, precio, categoria, stock },
       { new: true, runValidators: true }
     );
 
