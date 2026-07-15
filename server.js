@@ -48,6 +48,7 @@ app.listen(PORT, () => {
 //});
 
 // Encender el servidor
+// Inicio del servidor y escucha de solicitudes entrantes.
 //const PORT = process.env.PORT || 3000;
 //app.listen(PORT, () => {
 //    console.log(`🚀 Servidor backend corriendo en ${uri}:${PORT}`); ESTO ME FILTRA LAS CREDENCIALES PORQUE IMPRIME URI
