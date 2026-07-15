@@ -12,18 +12,6 @@ export const getAllPedidos = async (req, res) => {
   }
 };
 
-export const getAllPedidos = async (req, res) => {
-  try {
-    const pedidos = await Pedido.find()
-
-      .populate('cliente_id', 'nombre rut')
-      .populate('productos', 'nombre precio');
-
-    res.status(200).json(pedidos);
-  } catch (error) {
-    res.status(500).json({ message: 'Error al obtener pedidos', error: error.message });
-  }
-};
 
 export const createPedido = async (req, res) => {
   try {
